@@ -14,3 +14,4 @@ Use case?
 ---
 
 - API client development
+- Everything dealing with JSON!
