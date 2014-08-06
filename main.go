@@ -9,10 +9,9 @@ func main() {
 	defer termbox.Close()
 
 	termbox.SetInputMode(termbox.InputEsc | termbox.InputMouse)
-	print_tb(0, 0, "QUERY> ")
-
 	termbox.Clear(termbox.ColorDefault, termbox.ColorDefault)
 	termbox.Flush()
+
 loop:
 	for {
 		switch ev := termbox.PollEvent(); ev.Type {
